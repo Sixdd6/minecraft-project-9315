@@ -1,0 +1,36 @@
+# Configuration file
+
+general {
+    # If enabled, will tint the name of opped players red in chat messages
+    # will have no effect if chat color formatting is disabled
+    B:"Color OP Player Names"=false
+
+    # If enabled, will convert &, followed by a formatting code to the respective formatting code in chat messages. && to escape.
+    B:"Colored Chat Messages"=true
+
+    # En/Disable global debug mode
+    # this is a global flag for all glasspane mods!
+    B:"Debug Mode"=false
+
+    ##########################################################################################################
+    # client settings
+    #--------------------------------------------------------------------------------------------------------#
+    # These settings affect the client ONLY
+    ##########################################################################################################
+
+    "client settings" {
+        # Show advanced tooltip information?
+        B:"Advanced Tooltips"=true
+    }
+
+    "updater settings" {
+        # whether or not to show a notification about updates
+        B:"Show Available Updates"=false
+
+        # whether or not to show experimental builds that might be unstable
+        B:"Show Experimental Builds"=false
+    }
+
+}
+
+

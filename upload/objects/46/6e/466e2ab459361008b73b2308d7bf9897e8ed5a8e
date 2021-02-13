@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Spawner",
+    "blockName": "minecraft:spawner",
+    "order": 17,
+    "color": 16777215,
+    "drawing": false
+  },
+  {
+    "name": "Biotite Ore",
+    "blockName": "quark:biotite_ore",
+    "order": 11,
+    "color": 14818703,
+    "drawing": false
+  },
+  {
+    "name": "Obsidian",
+    "blockName": "minecraft:obsidian",
+    "order": 18,
+    "color": 15214591,
+    "drawing": false
+  },
+  {
+    "name": "Diamond Ore",
+    "blockName": "osv:diamond_ore_diorite",
+    "order": 13,
+    "color": 42495,
+    "drawing": false
+  },
+  {
+    "name": "Iron Ore",
+    "blockName": "osv:iron_ore_granite",
+    "order": 15,
+    "color": 16777215,
+    "drawing": true
+  },
+  {
+    "name": "Overworld Quartz Ore",
+    "blockName": "overworld_quartz:overworld_quartz_ore",
+    "order": 9,
+    "color": 7818703,
+    "drawing": false
+  },
+  {
+    "name": "Diamond Ore",
+    "blockName": "osv:diamond_ore_granite",
+    "order": 15,
+    "color": 42495,
+    "drawing": false
+  },
+  {
+    "name": "Gold Ore",
+    "blockName": "osv:gold_ore_andesite",
+    "order": 18,
+    "color": 16776960,
+    "drawing": false
+  },
+  {
+    "name": "Gold Ore",
+    "blockName": "osv:gold_ore_granite",
+    "order": 17,
+    "color": 16776960,
+    "drawing": false
+  },
+  {
+    "name": "Iron Ore",
+    "blockName": "osv:iron_ore_diorite",
+    "order": 12,
+    "color": 16777215,
+    "drawing": true
+  },
+  {
+    "name": "Diamond Ore",
+    "blockName": "osv:diamond_ore",
+    "order": 14,
+    "color": 42495,
+    "drawing": false
+  },
+  {
+    "name": "Ancient Debris",
+    "blockName": "minecraft:ancient_debris",
+    "order": 10,
+    "color": 12527017,
+    "drawing": true
+  },
+  {
+    "name": "Iron Ore",
+    "blockName": "osv:iron_ore",
+    "order": 13,
+    "color": 16777215,
+    "drawing": true
+  },
+  {
+    "name": "Diamond Ore",
+    "blockName": "osv:diamond_ore_andesite",
+    "order": 16,
+    "color": 42495,
+    "drawing": false
+  },
+  {
+    "name": "Gold Ore",
+    "blockName": "osv:gold_ore",
+    "order": 19,
+    "color": 16776960,
+    "drawing": false
+  },
+  {
+    "name": "Nether Quartz Ore",
+    "blockName": "minecraft:nether_quartz_ore",
+    "order": 8,
+    "color": 10627313,
+    "drawing": false
+  },
+  {
+    "name": "Gold Ore",
+    "blockName": "osv:gold_ore_diorite",
+    "order": 16,
+    "color": 16776960,
+    "drawing": false
+  },
+  {
+    "name": "Iron Ore",
+    "blockName": "osv:iron_ore_andesite",
+    "order": 14,
+    "color": 16777215,
+    "drawing": true
+  },
+  {
+    "name": "Nether Gold Ore",
+    "blockName": "minecraft:nether_gold_ore",
+    "order": 4,
+    "color": 6252210,
+    "drawing": false
+  }
+]

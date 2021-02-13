@@ -1,0 +1,11 @@
+
+[settings]
+	#Range: 1 ~ 30
+	quartzVeinSize = 17
+	#Range: 1 ~ 30
+	quartzVeinsPerChunk = 10
+	#Range: 1 ~ 254
+	quartzMinHeight = 1
+	#Range: 1 ~ 255
+	quartzMaxHeight = 64
+
