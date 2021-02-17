@@ -1,0 +1,50 @@
+import mods.botanypots.ZenCrop;
+val crops = <recipetype:botanypots:crop>;
+
+// crops.create(id, seedInput, renderBlockArray, growthTicks, soilCategoryArray);
+// val brown_mushroom = crops.create("vanillaplus:brown_mushroom", <item:minecraft:brown_mushroom>, [<item:minecraft:brown_mushroom>], 1600, ["mushroom"]);
+
+val brown_mushroom = crops.getCrop("botanypots:crops/brown_mushroom");
+
+// Adds a soil category.
+// brown_mushroom.addCategory("soil_category_name");
+
+// Removes a soil category.
+// brown_mushroom.removeCategory("dirt");
+
+// Removes all soil categories.
+// brown_mushroom.clearCategories();
+
+// Removes all drops.
+brown_mushroom.clearDrops();
+
+// Adding new drop entries.
+// addDrop(item, chance);
+brown_mushroom.addDrop(<item:minecraft:brown_mushroom>, 0.75);
+brown_mushroom.addDrop(<item:enhanced_mushrooms:brown_mushroom_stem>, 0.15);
+brown_mushroom.addDrop(<item:minecraft:brown_mushroom_block>, 0.15);
+
+// addDrop(item, chance, rolls);
+// brown_mushroom.addDrop(<item:minecraft:iron_nugget>, 1, 4); // 100% drop rate AND 4 attempts.
+
+// addDrop(item, chance, minRolls, maxRolls);
+// brown_mushroom.addDrop(<item:minecraft:iron_ingot>, 0.75, 1, 5); // 75% drop rate AND 1 to 5 attempts.
+
+// Removes all drops.
+// brown_mushroom.clearDrops();
+
+// Removes a drop.
+// removeDrop(ingredientToRemove);
+// brown_mushroom.removeDrop(<tag:forge:seeds>);
+
+// Set the growth ticks of the crop.
+brown_mushroom.setGrowthTicks(1600);
+
+// Sets the seed item.
+// brown_mushroom.setSeed(<item:minecraft:brown_mushroom>);
+
+// Sets the display block.
+// brown_mushroom.setDisplay(<blockstate:minecraft:gold_block>);
+
+// Sets the display to multiple blocks stacked.
+// brown_mushroom.setDisplay([<blockstate:minecraft:iron_block>, <blockstate:minecraft:iron_ore>]);

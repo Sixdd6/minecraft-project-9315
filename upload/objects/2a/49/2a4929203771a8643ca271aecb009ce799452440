@@ -1,0 +1,91 @@
+// Replace Item Shelf recipe
+
+craftingTable.removeByName("supplementaries:item_shelf_recipe");
+craftingTable.addShaped("6dd_item_shelf", <item:supplementaries:item_shelf> * 2, [
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>],
+	[<tag:items:minecraft:wooden_slabs>,<tag:items:minecraft:wooden_slabs>,<tag:items:minecraft:wooden_slabs>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>]]
+);
+
+// Replace Quarter Slab recipes
+
+craftingTable.removeByName("buildersplus:oak_qslab");
+craftingTable.addShaped("6dd_oak_quarter_slab", <item:buildersplus:oak_qslab> * 6, [
+	[<item:minecraft:oak_slab>,<item:minecraft:oak_slab>,<item:minecraft:oak_slab>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>]]
+);
+
+craftingTable.removeByName("buildersplus:dark_oak_qslab");
+craftingTable.addShaped("6dd_dark_oak_quarter_slab", <item:buildersplus:dark_oak_qslab> * 6, [
+	[<item:minecraft:dark_oak_slab>,<item:minecraft:dark_oak_slab>,<item:minecraft:dark_oak_slab>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>]]
+);
+
+craftingTable.removeByName("buildersplus:birch_qslab");
+craftingTable.addShaped("6dd_birch_quarter_slab", <item:buildersplus:birch_qslab> * 6, [
+	[<item:minecraft:birch_slab>,<item:minecraft:birch_slab>,<item:minecraft:birch_slab>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>]]
+);
+
+craftingTable.removeByName("buildersplus:spruce_qslab");
+craftingTable.addShaped("6dd_spruce_quarter_slab", <item:buildersplus:spruce_qslab> * 6, [
+	[<item:minecraft:spruce_slab>,<item:minecraft:spruce_slab>,<item:minecraft:spruce_slab>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>]]
+);
+
+craftingTable.removeByName("buildersplus:acacia_qslab");
+craftingTable.addShaped("6dd_acacia_quarter_slab", <item:buildersplus:acacia_qslab> * 6, [
+	[<item:minecraft:acacia_slab>,<item:minecraft:acacia_slab>,<item:minecraft:acacia_slab>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>]]
+);
+
+craftingTable.removeByName("buildersplus:jungle_qslab");
+craftingTable.addShaped("6dd_jungle_quarter_slab", <item:buildersplus:jungle_qslab> * 6, [
+	[<item:minecraft:jungle_slab>,<item:minecraft:jungle_slab>,<item:minecraft:jungle_slab>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>]]
+);
+
+craftingTable.removeByName("buildersplus:warped_qslab");
+craftingTable.addShaped("6dd_warped_quarter_slab", <item:buildersplus:warped_qslab> * 6, [
+	[<item:minecraft:warped_slab>,<item:minecraft:warped_slab>,<item:minecraft:warped_slab>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>]]
+);
+
+craftingTable.removeByName("buildersplus:crimson_qslab");
+craftingTable.addShaped("6dd_crimson_quarter_slab", <item:buildersplus:crimson_qslab> * 6, [
+	[<item:minecraft:crimson_slab>,<item:minecraft:crimson_slab>,<item:minecraft:crimson_slab>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>]]
+);
+
+// Rework Bamboo Block recipes
+
+craftingTable.removeByName("quark:building/crafting/compressed/bamboo_block_uncompress");
+craftingTable.addShapeless("6dd_quark_bamboo_block_uncompress", <item:minecraft:bamboo> * 4, [<item:quark:bamboo_block>]);
+
+craftingTable.removeByName("quark:building/crafting/compressed/bamboo_block");
+craftingTable.addShaped("6dd_quark_bamboo_block", <item:quark:bamboo_block> * 1, [[<item:minecraft:bamboo>, <item:minecraft:bamboo>], [<item:minecraft:bamboo>, <item:minecraft:bamboo>]]);
+
+
+// Cheaper Navigation
+
+craftingTable.removeByName("minecraft:compass");
+craftingTable.addShaped("6dd_minecraft_compass", <item:minecraft:compass>, [
+	[<item:minecraft:iron_nugget>,<item:minecraft:iron_nugget>,<item:minecraft:iron_nugget>],
+	[<item:minecraft:iron_nugget>,<item:minecraft:redstone>,<item:minecraft:iron_nugget>],
+	[<item:minecraft:iron_nugget>,<item:minecraft:iron_nugget>,<item:minecraft:iron_nugget>]]
+);
+
+craftingTable.removeByName("minecraft:map");
+craftingTable.addShaped("6dd_minecraft_map", <item:minecraft:map> * 8, [
+	[<item:minecraft:paper>, <item:minecraft:paper>,<item:minecraft:paper>], 
+	[<item:minecraft:paper>,<item:minecraft:compass>,<item:minecraft:paper>],
+	[<item:minecraft:paper>,<item:minecraft:paper>,<item:minecraft:paper>]]
+);

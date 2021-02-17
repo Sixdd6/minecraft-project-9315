@@ -1,0 +1,50 @@
+import mods.botanypots.ZenCrop;
+val crops = <recipetype:botanypots:crop>;
+
+// crops.create(id, seedInput, renderBlockArray, growthTicks, soilCategoryArray);
+// val glowshroom = crops.create("vanillaplus:glowshroom", <item:quark:glowshroom>, <blockstate:quark:glowshroom>, 1600, "glowcelium");
+
+val glowshroom = crops.getCrop("quark:crops/glowshroom");
+
+// Adds a soil category.
+// glowshroom.addCategory("soil_category_name");
+
+// Removes a soil category.
+// glowshroom.removeCategory("dirt");
+
+// Removes all soil categories.
+// glowshroom.clearCategories();
+
+// Removes all drops.
+glowshroom.clearDrops();
+
+// Adding new drop entries.
+// addDrop(item, chance);
+glowshroom.addDrop(<item:quark:glowshroom>, 0.75);
+glowshroom.addDrop(<item:enhanced_mushrooms:glowshroom_stem>, 0.15);
+glowshroom.addDrop(<item:quark:glowshroom_block>, 0.15);
+
+// addDrop(item, chance, rolls);
+// glowshroom.addDrop(<item:minecraft:iron_nugget>, 1, 4); // 100% drop rate AND 4 attempts.
+
+// addDrop(item, chance, minRolls, maxRolls);
+// glowshroom.addDrop(<item:minecraft:iron_ingot>, 0.75, 1, 5); // 75% drop rate AND 1 to 5 attempts.
+
+// Removes all drops.
+// glowshroom.clearDrops();
+
+// Removes a drop.
+// removeDrop(ingredientToRemove);
+// glowshroom.removeDrop(<tag:forge:seeds>);
+
+// Set the growth ticks of the crop.
+glowshroom.setGrowthTicks(1600);
+
+// Sets the seed item.
+// glowshroom.setSeed(<item:minecraft:glowshroom>);
+
+// Sets the display block.
+// glowshroom.setDisplay(<blockstate:minecraft:gold_block>);
+
+// Sets the display to multiple blocks stacked.
+// glowshroom.setDisplay([<blockstate:minecraft:iron_block>, <blockstate:minecraft:iron_ore>]);

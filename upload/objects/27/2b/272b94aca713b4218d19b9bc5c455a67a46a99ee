@@ -1,0 +1,60 @@
+
+[general]
+	#
+	# Set this to false to disable Blaze Powder or Wither Bone Meal being used to grow Nether Wart.
+	grow_nether_warts = true
+	#
+	# Set this to false to disable Wither Bone Meal being used to grow Roses into Wither Roses.
+	grow_wither_roses = true
+	#
+	# Set this to false to disable removing a Slime Ball from a Sticky Piston when right clickling and crouching with a Shovel.
+	remove_slime_ball_pistons = true
+	#
+	# Set this to false to disable Glass Bottles being able to be filled up when right clickling a Hydro Rock block.
+	fill_water_bottle_hydro_rock = true
+
+# Warning: 
+# Changing world gen config options will require 
+# the world to be reloaded to take action. 
+# For servers this means a server restart.
+[worldgen]
+	#
+	# Set this to false to stop Peridotite being generated in the Overworld.
+	peridotite_gen = false
+	#
+	# Set this to false to stop Fine Gravel being generated in the Overworld.
+	fine_gravel_gen = true
+	#
+	# Set this to false to stop Hydro Rock being generated in the Overworld.
+	hydro_rock_gen = false
+	#
+	# Set this to false to stop Roses being generated in the Overworld.
+	rose_gen = true
+	#
+	# Set this to false to stop Infernal Rock being generated in the Nether.
+	infernal_rock_gen = false
+	#
+	# Set this to false to stop Bone Sand being generated in the Nether.
+	bone_sand_gen = true
+	#
+	# Set this to false to stop Wither Bone Sand being generated in the Nether.
+	wither_bone_sand_gen = true
+	#
+	# Set this to false to stop Nether Wells being generated in the Nether.
+	nether_well_gen = true
+	#Minium chunk distance between Nether Wells
+	#Range: > 1
+	nether_well_min_chunk = 3
+	#Maximum chunk distance between Nether Wells
+	#Range: > 2
+	nether_well_max_chunk = 7
+	#
+	# Set this to false to stop Graves being generated in the Nether.
+	grave_gen = false
+	#Minium chunk distance between Graves
+	#Range: > 1
+	grave_min_chunk = 3
+	#Maximum chunk distance between Graves
+	#Range: > 2
+	grave_max_chunk = 5
+

@@ -1,0 +1,4 @@
+
+// <recipetype:create:compacting>.addRecipe(String name, String heat, IItemStack output, IIngredient[] itemInputs, @Optional IFluidStack[] fluidInputs, @Optional(100) int duration)
+
+<recipetype:create:compacting>.addRecipe("6dd_create_rotten_flesh_leather", "heated", <item:minecraft:leather>, [<item:minecraft:rotten_flesh>], [<fluid:minecraft:water>], 400);
