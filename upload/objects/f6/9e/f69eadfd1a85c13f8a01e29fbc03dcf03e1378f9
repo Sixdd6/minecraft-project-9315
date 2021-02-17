@@ -1,0 +1,3 @@
+tellraw @s {"text":"---------------------------------","color":"aqua","extra":[{"text":"\n\nUninstalled Datapack: "},{"text":"Set Compass","color":"red"},{"text":"\n\nBy: "},{"text":"Bertiecrafter","color":"blue","underlined":true,"clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/member/bertiecrafter"}},{"text":"\n\nThe datapack is disabled,\nbut not removed from this save."},{"text":"\n\n"},{"text":"[Install Instructions]","hoverEvent":{"action":"show_text","contents":"If you decide to enable it again, run\n/datapack enable \"file/Set Compass.zip\"."}},{"text":"\n\n---------------------------------"}]}
+datapack disable "file/Set Compass"
+datapack disable "file/Set Compass.zip"

@@ -1,0 +1,4 @@
+#Current As: Server
+#Current At: Worldspawn???
+
+tellraw @a {"text":"---------------------------------","color":"aqua","extra":[{"text":"\n\nLoaded Datapack: "},{"text":"Set Compass","color":"red"},{"text":"\n\nBy: "},{"text":"Bertiecrafter","color":"blue","underlined":true,"clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/member/bertiecrafter"}},{"text":"\n\n"},{"text":"[Uninstall Instructions]","hoverEvent":{"action":"show_text","contents":{"text":"Uninstall by running\n/function bertiecrafter:stcmp/uninstall\nbefore deleting the datapack files."}}},{"text":"\n\n---------------------------------"}]}

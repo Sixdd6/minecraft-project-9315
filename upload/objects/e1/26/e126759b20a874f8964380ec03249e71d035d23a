@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": "It's only decoration!",
+    "icon": {
+      "item": "minecraft:chain"
+    },
+    "show_toast": false,
+    "title": "Cheaper Chains"
+  },
+  "parent": "global:zerotask"
+}
