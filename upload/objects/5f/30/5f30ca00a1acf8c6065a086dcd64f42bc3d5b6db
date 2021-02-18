@@ -1,3 +1,0 @@
-#As/At: Written book
-summon item ~ ~ ~ {Item:{id:"minecraft:compass",Count:1b}}
-kill @s

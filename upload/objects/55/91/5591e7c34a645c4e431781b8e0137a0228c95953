@@ -1,6 +1,0 @@
-#Current As: Server
-#Current At: Worldspawn???
-execute as @e[type=item,nbt={Item:{id:"minecraft:compass"}},tag=!bcstcmp_init] at @s run function bertiecrafter:stcmp/mark
-execute as @e[type=item,nbt={Item:{id:"minecraft:compass"}}] at @s unless entity @a[gamemode=!spectator,distance=..5] run function bertiecrafter:stcmp/convert_to_book
-execute as @e[type=item,nbt={Item:{id:"minecraft:written_book",Count:1b,tag:{bcstcmp_creates_compass:1b,pages:['{"text":"reset"}']}}}] at @s run function bertiecrafter:stcmp/convert_to_compass_plain
-execute as @e[type=item,nbt={Item:{id:"minecraft:written_book",Count:1b,tag:{bcstcmp_creates_compass:1b}}}] at @s run function bertiecrafter:stcmp/convert_to_compass

@@ -1,8 +1,0 @@
-{
-	"type": "cutandcolored:sawmilling",
-	"ingredient": {
-		"item": "minecraft:stripped_oak_log"
-	},
-	"result": "xercamod:carved_oak_5",
-	"count": 1
-}

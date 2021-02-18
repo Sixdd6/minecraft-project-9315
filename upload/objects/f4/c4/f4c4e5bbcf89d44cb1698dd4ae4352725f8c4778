@@ -1,9 +1,0 @@
-#As/At: Compass
-summon item ~ ~ ~ {Tags:["bcstcmp_tmp_setup"],Item:{id:"minecraft:writable_book",Count:1b,tag:{display:{Name:'{"text":"Unnamed Compass","color":"aqua"}',Lore:['{"text":"Sign and drop on ground","italic":false,"color":"gray"}','{"text":"to set new coordinates.","italic":false,"color":"gray"}','{"text":"Type ","italic":false,"color":"gray","extra":[{"text":"reset","italic":true},{"text":" to get"}]}','{"text":"a normal compass.","italic":false,"color":"gray"}']}}}}
-data modify entity @e[tag=bcstcmp_tmp_setup,limit=1] Item.tag.LodestonePos.X set from entity @s Pos[0]
-data modify entity @e[tag=bcstcmp_tmp_setup,limit=1] Item.tag.LodestonePos.Y set from entity @s Pos[1]
-data modify entity @e[tag=bcstcmp_tmp_setup,limit=1] Item.tag.LodestonePos.Z set from entity @s Pos[2]
-data modify entity @e[tag=bcstcmp_tmp_setup,limit=1] Item.tag.LodestoneDimension set from entity @p Dimension
-data modify entity @e[tag=bcstcmp_tmp_setup,limit=1] Item.tag.bcstcmp_creates_compass set value 1b
-kill @s
-tag @e[tag=bcstcmp_tmp_setup,limit=1] remove bcstcmp_tmp_setup

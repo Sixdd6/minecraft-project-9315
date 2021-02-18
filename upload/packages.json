@@ -2,9 +2,9 @@
   "minimumVersion" : 1,
   "packages" : [
     {
-      "title" : "Just Enough Blocks - Vanilla+",
+      "title" : "Just Enough Blocks - Vanilla+ v2.0.3",
       "name" : "just-enough-blocks",
-      "version" : "2021-02-17-21-15-06",
+      "version" : "2021-02-17-21-24-51",
       "location" : "just-enough-blocks.json",
       "priority" : 5
     }

@@ -1,8 +1,0 @@
-{
-	"type": "cutandcolored:sawmilling",
-	"ingredient": {
-		"item": "minecraft:stripped_acacia_log"
-	},
-	"result": "xercamod:carved_acacia_5",
-	"count": 1
-}

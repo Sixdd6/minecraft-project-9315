@@ -1,9 +1,0 @@
-# Configuration file
-
-general {
-    # register a recipe for the default elytra
-    # can be used to disable the crafting recipe in favor of adding custom recipes via crafttweaker
-    B:"Basic Elytra Recipe"=false
-}
-
-
