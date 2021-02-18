@@ -1,0 +1,8 @@
+{
+	"type": "cutandcolored:sawmilling",
+	"ingredient": {
+		"item": "minecraft:stripped_jungle_log"
+	},
+	"result": "xercamod:carved_jungle_8",
+	"count": 1
+}
