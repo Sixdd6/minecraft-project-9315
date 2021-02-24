@@ -1,0 +1,48 @@
+import mods.botanypots.ZenCrop;
+val crops = <recipetype:botanypots:crop>;
+
+// crops.create(id, seedInput, renderBlockArray, growthTicks, soilCategoryArray);
+val lily_pad_crop = crops.create("vanillaplus:crops/lily_pad", <item:minecraft:lily_pad>, [<blockstate:minecraft:lily_pad>], 1600, ["water"]);
+
+val lily_pad = crops.getCrop("vanillaplus:crops/lily_pad");
+
+// Adds a soil category.
+// lily_pad.addCategory("water");
+
+// Removes a soil category.
+// lily_pad.removeCategory("dirt");
+
+// Removes all soil categories.
+// lily_pad.clearCategories();
+
+// Removes all drops.
+// lily_pad.clearDrops();
+
+// Adding new drop entries.
+// addDrop(item, chance);
+lily_pad.addDrop(<item:minecraft:lily_pad>, 0.75);
+
+// addDrop(item, chance, rolls);
+// lily_pad.addDrop(<item:minecraft:iron_nugget>, 1, 4); // 100% drop rate AND 4 attempts.
+
+// addDrop(item, chance, minRolls, maxRolls);
+// lily_pad.addDrop(<item:minecraft:iron_ingot>, 0.75, 1, 5); // 75% drop rate AND 1 to 5 attempts.
+
+// Removes all drops.
+// lily_pad.clearDrops();
+
+// Removes a drop.
+// removeDrop(ingredientToRemove);
+// lily_pad.removeDrop(<tag:forge:seeds>);
+
+// Set the growth ticks of the crop.
+// lily_pad.setGrowthTicks(1600);
+
+// Sets the seed item.
+// lily_pad.setSeed(<item:minecraft:lily_pad>);
+
+// Sets the display block.
+// lily_pad.setDisplay(<blockstate:minecraft:gold_block>);
+
+// Sets the display to multiple blocks stacked.
+// lily_pad.setDisplay([<blockstate:minecraft:iron_block>, <blockstate:minecraft:iron_ore>]);

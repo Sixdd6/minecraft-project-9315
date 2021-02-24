@@ -1,0 +1,148 @@
+//--------------------\\
+// Replace Item Shelf \\
+//--------------------\\
+
+craftingTable.removeByName("supplementaries:item_shelf_recipe");
+craftingTable.addShaped("6dd_item_shelf", <item:supplementaries:item_shelf> * 2, [
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>],
+	[<tag:items:minecraft:wooden_slabs>,<tag:items:minecraft:wooden_slabs>,<tag:items:minecraft:wooden_slabs>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>]]
+);
+
+//------------------------------\\
+// Replace Quarter Slab recipes \\
+//------------------------------\\
+
+craftingTable.removeByName("buildersplus:oak_qslab");
+craftingTable.addShaped("6dd_oak_quarter_slab", <item:buildersplus:oak_qslab> * 6, [
+	[<item:minecraft:oak_slab>,<item:minecraft:oak_slab>,<item:minecraft:oak_slab>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>]]
+);
+
+craftingTable.removeByName("buildersplus:dark_oak_qslab");
+craftingTable.addShaped("6dd_dark_oak_quarter_slab", <item:buildersplus:dark_oak_qslab> * 6, [
+	[<item:minecraft:dark_oak_slab>,<item:minecraft:dark_oak_slab>,<item:minecraft:dark_oak_slab>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>]]
+);
+
+craftingTable.removeByName("buildersplus:birch_qslab");
+craftingTable.addShaped("6dd_birch_quarter_slab", <item:buildersplus:birch_qslab> * 6, [
+	[<item:minecraft:birch_slab>,<item:minecraft:birch_slab>,<item:minecraft:birch_slab>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>]]
+);
+
+craftingTable.removeByName("buildersplus:spruce_qslab");
+craftingTable.addShaped("6dd_spruce_quarter_slab", <item:buildersplus:spruce_qslab> * 6, [
+	[<item:minecraft:spruce_slab>,<item:minecraft:spruce_slab>,<item:minecraft:spruce_slab>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>]]
+);
+
+craftingTable.removeByName("buildersplus:acacia_qslab");
+craftingTable.addShaped("6dd_acacia_quarter_slab", <item:buildersplus:acacia_qslab> * 6, [
+	[<item:minecraft:acacia_slab>,<item:minecraft:acacia_slab>,<item:minecraft:acacia_slab>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>]]
+);
+
+craftingTable.removeByName("buildersplus:jungle_qslab");
+craftingTable.addShaped("6dd_jungle_quarter_slab", <item:buildersplus:jungle_qslab> * 6, [
+	[<item:minecraft:jungle_slab>,<item:minecraft:jungle_slab>,<item:minecraft:jungle_slab>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>]]
+);
+
+craftingTable.removeByName("buildersplus:warped_qslab");
+craftingTable.addShaped("6dd_warped_quarter_slab", <item:buildersplus:warped_qslab> * 6, [
+	[<item:minecraft:warped_slab>,<item:minecraft:warped_slab>,<item:minecraft:warped_slab>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>]]
+);
+
+craftingTable.removeByName("buildersplus:crimson_qslab");
+craftingTable.addShaped("6dd_crimson_quarter_slab", <item:buildersplus:crimson_qslab> * 6, [
+	[<item:minecraft:crimson_slab>,<item:minecraft:crimson_slab>,<item:minecraft:crimson_slab>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>],
+	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>]]
+);
+
+//-----------------------------\\
+// Rework Bamboo Block recipes \\
+//-----------------------------\\
+
+craftingTable.removeByName("quark:building/crafting/compressed/bamboo_block_uncompress");
+craftingTable.addShapeless("6dd_quark_bamboo_block_uncompress", <item:minecraft:bamboo> * 4, [<item:quark:bamboo_block>]);
+
+craftingTable.removeByName("quark:building/crafting/compressed/bamboo_block");
+craftingTable.addShaped("6dd_quark_bamboo_block", <item:quark:bamboo_block> * 1, [[<item:minecraft:bamboo>, <item:minecraft:bamboo>], [<item:minecraft:bamboo>, <item:minecraft:bamboo>]]);
+
+//--------------------\\
+// Cheaper Navigation \\
+//--------------------\\
+
+craftingTable.removeByName("minecraft:compass");
+craftingTable.addShaped("6dd_minecraft_compass", <item:minecraft:compass>, [
+	[<item:minecraft:iron_nugget>,<item:minecraft:iron_nugget>,<item:minecraft:iron_nugget>],
+	[<item:minecraft:iron_nugget>,<item:minecraft:redstone>,<item:minecraft:iron_nugget>],
+	[<item:minecraft:iron_nugget>,<item:minecraft:iron_nugget>,<item:minecraft:iron_nugget>]]
+);
+
+craftingTable.removeByName("minecraft:map");
+craftingTable.addShaped("6dd_minecraft_map", <item:minecraft:map> * 8, [
+	[<item:minecraft:paper>, <item:minecraft:paper>,<item:minecraft:paper>], 
+	[<item:minecraft:paper>,<item:minecraft:compass>,<item:minecraft:paper>],
+	[<item:minecraft:paper>,<item:minecraft:paper>,<item:minecraft:paper>]]
+);
+
+//---------------------\\
+// Calemi Utils Rework \\
+//---------------------\\
+
+craftingTable.removeByName("calemiutils:ingredients/knob_wood");
+mods.jei.JEI.hideItem(<item:calemiutils:knob_wood>);
+craftingTable.removeByName("calemiutils:ingredients/knob_stone");
+craftingTable.removeByName("calemiutils:ingredients/knob_stone_quark");
+mods.jei.JEI.hideItem(<item:calemiutils:knob_stone>);
+craftingTable.removeByName("calemiutils:ingredients/knob_iron");
+mods.jei.JEI.hideItem(<item:calemiutils:knob_iron>);
+craftingTable.removeByName("calemiutils:ingredients/knob_gold");
+mods.jei.JEI.hideItem(<item:calemiutils:knob_gold>);
+craftingTable.removeByName("calemiutils:ingredients/knob_diamond");
+mods.jei.JEI.hideItem(<item:calemiutils:knob_diamond>);
+craftingTable.removeByName("calemiutils:ingredients/knob_netherite");
+mods.jei.JEI.hideItem(<item:calemiutils:knob_netherite>);
+craftingTable.removeByName("calemiutils:ingredients/knob_starlight");
+mods.jei.JEI.hideItem(<item:calemiutils:knob_starlight>);
+
+craftingTable.removeByName("calemiutils:tools/sledgehammer_wood");
+mods.jei.JEI.hideItem(<item:calemiutils:sledgehammer_wood>);
+craftingTable.removeByName("calemiutils:tools/sledgehammer_stone");
+mods.jei.JEI.hideItem(<item:calemiutils:sledgehammer_stone>);
+craftingTable.removeByName("calemiutils:tools/sledgehammer_iron");
+mods.jei.JEI.hideItem(<item:calemiutils:sledgehammer_iron>);
+craftingTable.removeByName("calemiutils:tools/sledgehammer_gold");
+mods.jei.JEI.hideItem(<item:calemiutils:sledgehammer_gold>);
+craftingTable.removeByName("calemiutils:tools/sledgehammer_diamond");
+mods.jei.JEI.hideItem(<item:calemiutils:sledgehammer_diamond>);
+craftingTable.removeByName("calemiutils:tools/sledgehammer_netherite");
+mods.jei.JEI.hideItem(<item:calemiutils:sledgehammer_netherite>);
+craftingTable.removeByName("calemiutils:tools/sledgehammer_starlight");
+mods.jei.JEI.hideItem(<item:calemiutils:sledgehammer_starlight>);
+
+mods.jei.JEI.hideItem(<item:calemiutils:money_bag_rich>);
+mods.jei.JEI.hideItem(<item:calemiutils:money_bag_cheap>);
+
+
+craftingTable.removeByName("calemiutils:tools/brush");
+craftingTable.addShaped("6dd_calemiutil_brush", <item:calemiutils:brush>, [
+	[<item:minecraft:air>, <item:minecraft:white_wool>], 
+	[<item:minecraft:stick>,<item:minecraft:air>]]
+);
+
+craftingTable.removeByName("calemiutils:tools/eraser");
+craftingTable.addShaped("6dd_calemiutil_eraser", <item:calemiutils:eraser>, [
+	[<item:minecraft:paper>, <item:minecraft:slime_ball>]]
+);
