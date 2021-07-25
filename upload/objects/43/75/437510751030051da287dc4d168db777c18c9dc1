@@ -1,0 +1,3 @@
+import crafttweaker.api.tag.MCTag;
+
+<tag:items:forge:ingots/steel>.add(<item:fallout_inspired_power_armor:steel>);

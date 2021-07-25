@@ -1,0 +1,6 @@
+#KubeJS Common Properties
+#Tue Jun 15 11:34:02 CDT 2021
+announceReload=true
+serverOnly=false
+hideServerScriptErrors=false
+packmode=default

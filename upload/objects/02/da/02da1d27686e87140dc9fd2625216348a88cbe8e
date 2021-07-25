@@ -1,0 +1,27 @@
+
+// rose gold
+mods.jei.JEI.hideItem(<item:rosegold:crushed_rose_gold>);
+
+// wires
+mods.jei.JEI.hideItem(<item:createaddition:iron_wire>);
+mods.jei.JEI.hideItem(<item:createaddition:gold_wire>);
+mods.jei.JEI.hideItem(<item:immersiveengineering:wire_lead>);
+
+// Engineers Tools
+mods.jei.JEI.hideItem(<item:engineerstools:musli_bar_press>);
+mods.jei.JEI.hideItem(<item:engineerstools:musli_bar>);
+mods.jei.JEI.hideItem(<item:engineerstools:charged_lapis_squeezer>);
+mods.jei.JEI.hideItem(<item:engineerstools:charged_lapis>);
+mods.jei.JEI.hideItem(<item:engineerstools:diving_capsule>);
+mods.jei.JEI.hideItem(<item:engineerstools:sleeping_bag>);
+mods.jei.JEI.hideItem(<item:engineerstools:stimpack>);
+mods.jei.JEI.hideItem(<item:engineerstools:tracker>);
+mods.jei.JEI.hideItem(<item:patchouli:guide_book>.withTag({"patchouli:book": "engineerstools:engineerstools_manual" as string}));
+
+// bees
+mods.jei.JEI.hideCategory("productivebees:centrifuge");
+mods.jei.JEI.hideItem(<item:productivebees:centrifuge>);
+mods.jei.JEI.hideItem(<item:productivebees:powered_centrifuge>);
+// mods.jei.JEI.addInfo(<item:productivebees:gene>, ["This is the first line!", "This is the second!", "third"]);
+
+// Power Armor

@@ -2,11 +2,11 @@
   "minimumVersion" : 1,
   "packages" : [
     {
-      "title" : "Just Enough Blocks v2.0.10",
-      "name" : "just-enough-blocks",
-      "version" : "2021-03-05-10-29-07",
-      "location" : "just-enough-blocks.json",
-      "priority" : 5
+      "title" : "Untitled Modpack 0.6-033",
+      "name" : "untitled-modpack",
+      "version" : "2021-07-25-04-17-23",
+      "location" : "untitled-modpack.json",
+      "priority" : 1
     }
   ]
 }

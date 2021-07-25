@@ -1,0 +1,233 @@
+[
+  {
+    "name": "Zinc Ore",
+    "blockName": "create:zinc_ore",
+    "order": 31,
+    "color": 4174639,
+    "drawing": false
+  },
+  {
+    "name": "Coal Ore",
+    "blockName": "minecraft:coal_ore",
+    "order": 3,
+    "color": 13457489,
+    "drawing": false
+  },
+  {
+    "name": "Gold Ore",
+    "blockName": "minecraft:gold_ore",
+    "order": 6,
+    "color": 14088829,
+    "drawing": false
+  },
+  {
+    "name": "Niter Ore",
+    "blockName": "thermal:niter_ore",
+    "order": 22,
+    "color": 5871228,
+    "drawing": false
+  },
+  {
+    "name": "Nickel Ore",
+    "blockName": "immersiveengineering:ore_nickel",
+    "order": 21,
+    "color": 15365562,
+    "drawing": false
+  },
+  {
+    "name": "Tin Ore",
+    "blockName": "thermal:tin_ore",
+    "order": 28,
+    "color": 7491897,
+    "drawing": false
+  },
+  {
+    "name": "Biotite Ore",
+    "blockName": "quark:biotite_ore",
+    "order": 32,
+    "color": 2878416,
+    "drawing": false
+  },
+  {
+    "name": "Iron Ore",
+    "blockName": "minecraft:iron_ore",
+    "order": 8,
+    "color": 1731588,
+    "drawing": true
+  },
+  {
+    "name": "Nether Quartz Ore",
+    "blockName": "minecraft:nether_quartz_ore",
+    "order": 11,
+    "color": 11307759,
+    "drawing": false
+  },
+  {
+    "name": "Ruby Ore",
+    "blockName": "thermal:ruby_ore",
+    "order": 23,
+    "color": 8609082,
+    "drawing": false
+  },
+  {
+    "name": "Ancient Debris",
+    "blockName": "minecraft:ancient_debris",
+    "order": 12,
+    "color": 15715826,
+    "drawing": false
+  },
+  {
+    "name": "Nickel Ore",
+    "blockName": "thermal:nickel_ore",
+    "order": 20,
+    "color": 8142702,
+    "drawing": false
+  },
+  {
+    "name": "Rock Crystal Ore",
+    "blockName": "astralsorcery:rock_crystal_ore",
+    "order": 2,
+    "color": 12661924,
+    "drawing": false
+  },
+  {
+    "name": "Copper Ore",
+    "blockName": "create:copper_ore",
+    "order": 17,
+    "color": 8165047,
+    "drawing": false
+  },
+  {
+    "name": "Cinnabar Ore",
+    "blockName": "thermal:cinnabar_ore",
+    "order": 14,
+    "color": 12576425,
+    "drawing": false
+  },
+  {
+    "name": "Apatite Ore",
+    "blockName": "thermal:apatite_ore",
+    "order": 13,
+    "color": 9208682,
+    "drawing": false
+  },
+  {
+    "name": "Redstone Ore",
+    "blockName": "minecraft:redstone_ore",
+    "order": 10,
+    "color": 160176,
+    "drawing": false
+  },
+  {
+    "name": "Copper Ore",
+    "blockName": "immersiveengineering:ore_copper",
+    "order": 16,
+    "color": 11006268,
+    "drawing": false
+  },
+  {
+    "name": "Lead Ore",
+    "blockName": "immersiveengineering:ore_lead",
+    "order": 19,
+    "color": 13268898,
+    "drawing": false
+  },
+  {
+    "name": "Diamond Ore",
+    "blockName": "minecraft:diamond_ore",
+    "order": 4,
+    "color": 11700639,
+    "drawing": false
+  },
+  {
+    "name": "Bauxite Ore",
+    "blockName": "immersiveengineering:ore_aluminum",
+    "order": 29,
+    "color": 9184270,
+    "drawing": false
+  },
+  {
+    "name": "Lead Ore",
+    "blockName": "thermal:lead_ore",
+    "order": 18,
+    "color": 11813353,
+    "drawing": false
+  },
+  {
+    "name": "Silver Ore",
+    "blockName": "thermal:silver_ore",
+    "order": 25,
+    "color": 3911303,
+    "drawing": false
+  },
+  {
+    "name": "Aquamarine Shale",
+    "blockName": "astralsorcery:aquamarine_sand_ore",
+    "order": 1,
+    "color": 16312712,
+    "drawing": false
+  },
+  {
+    "name": "Copper Ore",
+    "blockName": "thermal:copper_ore",
+    "order": 15,
+    "color": 783920,
+    "drawing": false
+  },
+  {
+    "name": "Nether Gold Ore",
+    "blockName": "minecraft:nether_gold_ore",
+    "order": 7,
+    "color": 13018375,
+    "drawing": false
+  },
+  {
+    "name": "Sapphire Ore",
+    "blockName": "thermal:sapphire_ore",
+    "order": 24,
+    "color": 9305511,
+    "drawing": false
+  },
+  {
+    "name": "Starmetal Ore",
+    "blockName": "astralsorcery:starmetal_ore",
+    "order": 0,
+    "color": 7947583,
+    "drawing": false
+  },
+  {
+    "name": "Sulfur Ore",
+    "blockName": "thermal:sulfur_ore",
+    "order": 27,
+    "color": 7147104,
+    "drawing": false
+  },
+  {
+    "name": "Lapis Lazuli Ore",
+    "blockName": "minecraft:lapis_ore",
+    "order": 9,
+    "color": 1531553,
+    "drawing": false
+  },
+  {
+    "name": "Silver Ore",
+    "blockName": "immersiveengineering:ore_silver",
+    "order": 26,
+    "color": 15340906,
+    "drawing": false
+  },
+  {
+    "name": "Uranium Ore",
+    "blockName": "immersiveengineering:ore_uranium",
+    "order": 30,
+    "color": 14913108,
+    "drawing": false
+  },
+  {
+    "name": "Emerald Ore",
+    "blockName": "minecraft:emerald_ore",
+    "order": 5,
+    "color": 15443415,
+    "drawing": false
+  }
+]

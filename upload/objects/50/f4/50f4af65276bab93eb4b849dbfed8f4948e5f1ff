@@ -1,0 +1,99 @@
+// imports
+import crafttweaker.api.CraftingTableManager;
+import crafttweaker.api.BlastFurnaceManager;
+import crafttweaker.api.FurnaceManager;
+
+// Create
+<recipetype:create:milling>.removeByName("create:milling/iron_ore");
+<recipetype:create:milling>.removeByName("create:milling/gold_ore");
+<recipetype:create:milling>.removeByName("create:milling/copper_ore");
+<recipetype:create:milling>.removeByName("create:milling/zinc_ore");
+<recipetype:create:milling>.removeByName("create:milling/aluminum_ore");
+<recipetype:create:milling>.removeByName("create:milling/silver_ore");
+<recipetype:create:milling>.removeByName("create:milling/tin_ore");
+<recipetype:create:milling>.removeByName("create:milling/lead_ore");
+<recipetype:create:milling>.removeByName("create:milling/uranium_ore");
+<recipetype:create:milling>.removeByName("create:milling/nickel_ore");
+<recipetype:create:crushing>.removeByName("create:crushing/copper_block");
+<recipetype:create:crushing>.removeByName("create:crushing/zinc_block");
+<recipetype:create:crushing>.removeByName("create:crushing/brass_block");
+<recipetype:create:splashing>.removeByName("rosegold:create_compat/splashing/crushed_rose_gold");
+<recipetype:create:splashing>.removeByName("create:splashing/crushed_iron_ore");
+<recipetype:create:splashing>.removeByName("create:splashing/crushed_gold_ore");
+<recipetype:create:splashing>.removeByName("create:splashing/crushed_copper_ore");
+<recipetype:create:splashing>.removeByName("create:splashing/thermal/crushed_tin_ore");
+<recipetype:create:splashing>.removeByName("create:splashing/crushed_zinc_ore");
+<recipetype:create:splashing>.removeByName("create:splashing/immersiveengineering/crushed_aluminum_ore");
+<recipetype:create:splashing>.removeByName("create:splashing/immersiveengineering/crushed_uranium_ore");
+<recipetype:create:splashing>.removeByName("create:splashing/immersiveengineering/crushed_silver_ore");
+<recipetype:create:splashing>.removeByName("create:splashing/thermal/crushed_silver_ore");
+<recipetype:create:splashing>.removeByName("create:splashing/immersiveengineering/crushed_lead_ore");
+<recipetype:create:splashing>.removeByName("create:splashing/thermal/crushed_lead_ore");
+<recipetype:create:splashing>.removeByName("create:splashing/immersiveengineering/crushed_nickel_ore");
+<recipetype:create:splashing>.removeByName("create:splashing/thermal/crushed_nickel_ore");
+<recipetype:create:splashing>.removeByName("create:splashing/crushed_brass");
+<recipetype:createaddition:rolling>.removeByName("createaddition:rolling/iron_plate");
+<recipetype:createaddition:rolling>.removeByName("createaddition:rolling/gold_plate");
+
+craftingTable.removeByName("createaddition:crafting/spool");
+craftingTable.removeByName("createaddition:crafting/copper_spool");
+craftingTable.removeByName("createaddition:crafting/gold_spool");
+craftingTable.removeByName("immersiveengineering:crafting/wire_lead");
+craftingTable.removeByName("create_stuff_additions:zinc_handle_recipe");
+
+// Immersive Engineering
+<recipetype:immersiveengineering:alloy>.removeRecipe(<item:rosegold:rose_gold_ingot> * 4);
+<recipetype:immersiveengineering:metal_press>.removeRecipe(<item:createaddition:iron_wire> * 2);
+<recipetype:immersiveengineering:metal_press>.removeRecipe(<item:createaddition:gold_wire> * 2);
+<recipetype:immersiveengineering:metal_press>.removeRecipe(<item:immersiveengineering:wire_lead> * 2);
+craftingTable.removeByName("immersiveengineering:crafting/wirecoil_copper");
+craftingTable.removeByName("immersiveengineering:crafting/wirecoil_electrum");
+craftingTable.removeByName("immersiveengineering:crafting/wirecoil_steel");
+craftingTable.removeByName("immersiveengineering:crafting/wirecoil_redstone");
+craftingTable.removeByName("immersiveengineering:crafting/wirecoil_structure_steel");
+craftingTable.removeByName("immersiveengineering:crafting/wirecoil_structure_rope");
+craftingTable.removeByName("immersiveengineering:crafting/hammercrushing_iron");
+craftingTable.removeByName("immersiveengineering:crafting/hammercrushing_gold");
+craftingTable.removeByName("immersiveengineering:crafting/hammercrushing_copper");
+craftingTable.removeByName("immersiveengineering:crafting/hammercrushing_tin");
+craftingTable.removeByName("immersiveengineering:crafting/hammercrushing_silver");
+craftingTable.removeByName("immersiveengineering:crafting/hammercrushing_lead");
+craftingTable.removeByName("immersiveengineering:crafting/hammercrushing_aluminum");
+craftingTable.removeByName("immersiveengineering:crafting/hammercrushing_uranium");
+craftingTable.removeByName("immersiveengineering:crafting/hammercrushing_nickel");
+craftingTable.removeByName("immersiveengineering:crafting/metal_ladder_none");
+craftingTable.removeByName("immersiveengineering:crafting/sawdust");
+<recipetype:immersiveengineering:crusher>.removeByName("immersiveengineering:crusher/ore_tin");
+
+
+
+// Thermal Expansion
+<recipetype:thermal:smelter>.removeByName("thermal:compat/refinedstorage/smelter_refinedstorage_alloy_quartz_enriched_iron");
+blastFurnace.removeByName("thermal:smelting/invar_ingot_from_dust_blasting");
+furnace.removeByName("thermal:smelting/invar_ingot_from_dust_smelting");
+<recipetype:immersiveengineering:alloy>.removeByName("immersiveengineering:alloysmelter/invar");
+craftingTable.removeByName("thermal:machine_frame");
+
+
+// Refined Storage
+craftingTable.removeByName("refinedstorage:quartz_enriched_iron");
+craftingTable.removeByName("refinedstorage:machine_casing");
+
+// Misc
+craftingTable.removeRecipe(<item:productivebees:centrifuge>);
+craftingTable.removeRecipe(<item:productivebees:powered_centrifuge>);
+
+craftingTable.removeRecipe(<item:engineerstools:musli_bar_press>);
+craftingTable.removeRecipe(<item:engineerstools:musli_bar>);
+craftingTable.removeRecipe(<item:engineerstools:charged_lapis_squeezer>);
+craftingTable.removeRecipe(<item:engineerstools:charged_lapis>);
+craftingTable.removeRecipe(<item:engineerstools:diving_capsule>);
+craftingTable.removeRecipe(<item:engineerstools:sleeping_bag>);
+craftingTable.removeRecipe(<item:engineerstools:stimpack>);
+craftingTable.removeRecipe(<item:engineerstools:tracker>);
+craftingTable.removeRecipe(<item:patchouli:guide_book>.withTag({"patchouli:book": "engineerstools:engineerstools_manual" as string}));
+
+// craftingTable.removeRecipe(<item:create_stuff_additions:rose_quartz_shovel>);
+// craftingTable.removeRecipe(<item:create_stuff_additions:rose_quartz_axe>);
+// craftingTable.removeRecipe(<item:create_stuff_additions:rose_quartz_pickaxe>);
+// craftingTable.removeRecipe(<item:create_stuff_additions:rose_quartz_sword>);

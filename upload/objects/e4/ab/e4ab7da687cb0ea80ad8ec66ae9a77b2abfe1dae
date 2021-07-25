@@ -1,0 +1,103 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jun 15, 2021, 11:39:02 AM
+
+#forge:gasoline
+- immersivepetroleum:gasoline
+
+#forge:lubricant
+- immersivepetroleum:lubricant
+
+#forge:diesel_sulfur
+- immersivepetroleum:diesel_sulfur
+
+#forge:experience
+- cofh_core:experience
+
+#forge:crude_oil
+- immersivepetroleum:oil
+- thermal:crude_oil
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- nethers_exoticism:jaboticaba_juice
+- nethers_exoticism:jaboticaba_juice_flowing
+- create:flowing_honey
+- create:honey
+- create:flowing_chocolate
+- create:chocolate
+
+#forge:biodiesel
+- immersiveengineering:biodiesel
+
+#forge:milk
+- create:flowing_milk
+- create:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#forge:life
+- bloodmagic:life_essence_fluid
+- bloodmagic:life_essence_fluid_flowing
+
+#forge:herbicide
+- immersiveengineering:herbicide
+
+#forge:tea
+- create:flowing_tea
+- create:tea
+
+#forge:diesel
+- immersivepetroleum:diesel
+- immersivepetroleum:diesel_sulfur
+
+#forge:plantoil
+- immersiveengineering:plantoil
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#forge:ethanol
+- immersiveengineering:ethanol
+
+#forge:latex
+- thermal:latex
+
+#forge:chocolate
+- create:flowing_chocolate
+- create:chocolate
+
+#forge:honey
+- productivebees:honey
+- productivebees:flowing_honey
+- create:flowing_honey
+- create:honey
+- cofh_core:honey
+
+#forge:creosote
+- thermal:creosote
+- immersiveengineering:creosote
+
+#create:no_infinite_draining
+- astralsorcery:liquid_starlight
+
+#forge:concrete
+- immersiveengineering:concrete
+
+#forge:potion
+- cofh_core:potion
+- immersiveengineering:potion
+
+#forge:napalm
+- immersivepetroleum:napalm
+
+#immersivepetroleum:burnable_in_flarestack
+- #forge:lubricant
+- #forge:diesel
+- #forge:diesel_sulfur
+- #forge:gasoline
+- #forge:plantoil
+- #forge:creosote
+- #forge:ethanol
