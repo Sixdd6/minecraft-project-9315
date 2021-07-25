@@ -1,0 +1,22 @@
+
+[Information]
+	"Enable season HUD" = true
+	"Enable crops season tooltip" = true
+	"Show wet/dry tooltip" = false
+	"Enable seasonal music" = true
+	"Display season in debug menu" = true
+	"Require calendar items in inventory to display the HUD" = false
+
+[Weather]
+	"Enable blizzard sound effect" = true
+	"Enable blizzard texture" = true
+	#Set this to 0 to disable all types of fogs
+	#Range: 0 ~ 100
+	"Fog/Blizzard density" = 20
+	#Range: 0 ~ 100
+	"Fog density multiplier (Snow)" = 5
+	#Range: 0 ~ 100
+	"Fog density multiplier (Blizzard)" = 25
+	#Range: 0 ~ 100
+	"Fog density multiplier (Fog)" = 10
+
