@@ -2,9 +2,9 @@
   "minimumVersion" : 1,
   "packages" : [
     {
-      "title" : "Untitled Modpack 0.6-037",
+      "title" : "Untitled Modpack 0.7-001",
       "name" : "untitled-modpack",
-      "version" : "2021-07-26-23-28-29",
+      "version" : "2021-07-28-04-25-47",
       "location" : "untitled-modpack.json",
       "priority" : 1
     }
