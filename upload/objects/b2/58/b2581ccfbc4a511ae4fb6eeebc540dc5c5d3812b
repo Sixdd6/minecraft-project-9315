@@ -1,0 +1,144 @@
+// imports
+import crafttweaker.api.registries.IRecipeManager;
+import crafttweaker.api.CraftingTableManager;
+import crafttweaker.api.BlastFurnaceManager;
+import crafttweaker.api.FurnaceManager;
+import mods.botania.ElvenTrade;
+
+// Furnace
+furnace.addRecipe("sixdd_furnace_tin_grit", <item:thermal:tin_ingot>, <item:contenttweaker:tin_grit>, 2.0, 200);
+
+//Create
+<recipetype:create:mechanical_crafting>.addRecipe("sixdd_mechanical_crafting_integrated_circuit", <item:contenttweaker:integrated_circuit>, 
+	[[<item:minecraft:air>, <item:minecraft:air>, <item:create:copper_sheet>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:redstone>, <item:minecraft:redstone>, <item:create:polished_rose_quartz>, <item:minecraft:redstone>, <item:minecraft:redstone>], 
+	[<item:minecraft:air>, <item:minecraft:gold_nugget>, <item:immersiveengineering:circuit_board>, <item:minecraft:gold_nugget>, <item:minecraft:air>]]
+);
+<recipetype:create:mechanical_crafting>.addRecipe("sixdd_mechanical_crafting_thermal_machine_frame", <item:thermal:machine_frame>, 
+	[[<tag:items:forge:plates/steel>, <item:create:copper_sheet>, <tag:items:forge:plates/steel>], 
+	[<item:minecraft:redstone>, <tag:items:forge:gears/invar>, <item:minecraft:redstone>], 
+	[<tag:items:forge:plates/steel>, <item:contenttweaker:integrated_circuit>, <tag:items:forge:plates/steel>]]
+);
+<recipetype:create:mechanical_crafting>.addRecipe("sixdd_mechanical_crafting_machine_casing", <item:refinedstorage:machine_casing>, [
+	[<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:quartz_enriched_iron>], 
+	[<item:refinedstorage:quartz_enriched_iron>, <item:thermal:machine_frame>, <item:refinedstorage:quartz_enriched_iron>], 
+	[<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:quartz_enriched_iron>]]
+);
+craftingTable.addShaped("sixdd_crafting_empty_wire_spool", <item:createaddition:spool> * 8, [
+	[<tag:items:minecraft:wooden_pressure_plates>],[<item:minecraft:stick>],[<tag:items:minecraft:wooden_pressure_plates>]]
+);
+<recipetype:create:sandpaper_polishing>.addRecipe("sixdd_sandpaper_tool_handle", <item:create_stuff_additions:zinc_handle>, <item:immersiveengineering:stick_steel>);
+craftingTable.addShaped("sixdd_crafting_induction_heater", <item:createaddition:heater>, [
+	[<item:immersiveengineering:connector_lv>],
+	[<item:immersiveengineering:treated_wood_horizontal>],
+	[<item:immersiveengineering:coil_lv>]]
+);
+craftingTable.addShaped("sixdd_crafting_electric_motor", <item:createaddition:electric_motor>, [
+	[<item:create:andesite_alloy>, <item:create:andesite_alloy>, <item:create:andesite_alloy>],
+	[<item:immersiveengineering:connector_lv>, <item:immersiveengineering:coil_lv>, <item:create:shaft>],
+	[<item:create:andesite_alloy>, <item:create:andesite_alloy>, <item:create:andesite_alloy>]]
+);
+craftingTable.addShaped("sixdd_crafting_alternator", <item:createaddition:alternator>, [
+	[<item:create:andesite_alloy>, <item:create:andesite_alloy>, <item:create:andesite_alloy>],
+	[<item:create:shaft>, <item:immersiveengineering:coil_lv>, <item:immersiveengineering:connector_lv>],
+	[<item:create:andesite_alloy>, <item:create:andesite_alloy>, <item:create:andesite_alloy>]]
+);
+
+
+// Immersive Engineering
+<recipetype:immersiveengineering:alloy>.addRecipe("sixdd_alloy_kiln_rose_gold", 
+	<tag:items:forge:ingots/copper> * 1, <item:minecraft:gold_ingot> * 3, 200, <item:rosegold:rose_gold_ingot> * 4);
+<recipetype:immersiveengineering:arc_furnace>.addRecipe("sixdd_arc_furnace_rose_gold", <item:minecraft:gold_ingot> * 3, 
+	[<tag:items:forge:ingots/copper>], 100, 512, [<item:rosegold:rose_gold_ingot> * 4]);
+<recipetype:immersiveengineering:crusher>.addRecipe("sixdd_ie_crushed_iron", <item:create:crushed_iron_ore>, 512, <item:immersiveengineering:dust_iron> * 2);
+<recipetype:immersiveengineering:crusher>.addRecipe("sixdd_ie_crushed_gold", <item:create:crushed_gold_ore>, 512, <item:immersiveengineering:dust_gold> * 2);
+<recipetype:immersiveengineering:crusher>.addRecipe("sixdd_ie_crushed_copper", <item:create:crushed_copper_ore>, 512, <item:immersiveengineering:dust_copper> * 2);
+<recipetype:immersiveengineering:crusher>.addRecipe("sixdd_ie_crushed_aluminum", <item:create:crushed_aluminum_ore>, 512, <item:immersiveengineering:dust_aluminum> * 2);
+<recipetype:immersiveengineering:crusher>.addRecipe("sixdd_ie_crushed_lead", <item:create:crushed_lead_ore>, 512, <item:immersiveengineering:dust_lead> * 2);
+<recipetype:immersiveengineering:crusher>.addRecipe("sixdd_ie_crushed_silver", <item:create:crushed_silver_ore>, 512, <item:immersiveengineering:dust_silver> * 2);
+<recipetype:immersiveengineering:crusher>.addRecipe("sixdd_ie_crushed_nickel", <item:create:crushed_nickel_ore>, 512, <item:immersiveengineering:dust_nickel> * 2);
+<recipetype:immersiveengineering:crusher>.addRecipe("sixdd_ie_crushed_uranium", <item:create:crushed_uranium_ore>, 512, <item:immersiveengineering:dust_uranium> * 2);
+<recipetype:immersiveengineering:crusher>.addRecipe("sixdd_ie_crushed_tin", <item:create:crushed_tin_ore>, 512, <item:contenttweaker:tin_grit> * 2);
+<recipetype:immersiveengineering:crusher>.addRecipe("sixdd_ie_crusher_ore_tin", <item:thermal:tin_ore>, 512, <item:contenttweaker:tin_grit> * 2);
+craftingTable.addShaped("sixdd_ie_wirecoil_copper", <item:immersiveengineering:wirecoil_copper> * 4, [
+	[<item:minecraft:air>,<item:immersiveengineering:wire_copper>,<item:minecraft:air>], 
+	[<item:immersiveengineering:wire_copper>,<item:createaddition:spool>,<item:immersiveengineering:wire_copper>], 
+	[<item:minecraft:air>,<item:immersiveengineering:wire_copper>,<item:minecraft:air>]]
+);
+craftingTable.addShaped("sixdd_ie_wirecoil_electrum", <item:immersiveengineering:wirecoil_electrum> * 4, [
+	[<item:minecraft:air>,<item:immersiveengineering:wire_electrum>,<item:minecraft:air>], 
+	[<item:immersiveengineering:wire_electrum>,<item:createaddition:spool>,<item:immersiveengineering:wire_electrum>], 
+	[<item:minecraft:air>,<item:immersiveengineering:wire_electrum>,<item:minecraft:air>]]
+);
+craftingTable.addShaped("sixdd_ie_wirecoil_steel", <item:immersiveengineering:wirecoil_steel> * 4, [
+	[<item:minecraft:air>,<item:immersiveengineering:wire_steel>,<item:minecraft:air>], 
+	[<item:immersiveengineering:wire_aluminum>,<item:createaddition:spool>,<item:immersiveengineering:wire_aluminum>], 
+	[<item:minecraft:air>,<item:immersiveengineering:wire_steel>,<item:minecraft:air>]]
+);
+craftingTable.addShaped("sixdd_ie_wirecoil_redstone", <item:immersiveengineering:wirecoil_redstone> * 4, [
+	[<item:minecraft:air>,<item:immersiveengineering:wire_aluminum>,<item:minecraft:air>], 
+	[<item:minecraft:redstone>,<item:createaddition:spool>,<item:minecraft:redstone>], 
+	[<item:minecraft:air>,<item:immersiveengineering:wire_aluminum>,<item:minecraft:air>]]
+);
+craftingTable.addShaped("sixdd_ie_wirecoil_structure_steel", <item:immersiveengineering:wirecoil_structure_steel> * 4, [
+	[<item:minecraft:air>,<item:immersiveengineering:wire_steel>,<item:minecraft:air>], 
+	[<item:immersiveengineering:wire_steel>,<item:createaddition:spool>,<item:immersiveengineering:wire_steel>], 
+	[<item:minecraft:air>,<item:immersiveengineering:wire_steel>,<item:minecraft:air>]]
+);
+craftingTable.addShaped("sixdd_ie_wirecoil_structure_rope", <item:immersiveengineering:wirecoil_structure_rope> * 4, [
+	[<item:minecraft:air>,<item:immersiveengineering:hemp_fiber>,<item:minecraft:air>], 
+	[<item:immersiveengineering:hemp_fiber>,<item:createaddition:spool>,<item:immersiveengineering:hemp_fiber>], 
+	[<item:minecraft:air>,<item:immersiveengineering:hemp_fiber>,<item:minecraft:air>]]
+);
+craftingTable.addShaped("sixdd_ie_metal_ladder", <item:immersiveengineering:metal_ladder_none> * 4, [
+	[<tag:items:forge:rods/all_metal>,<item:minecraft:air>,<tag:items:forge:rods/all_metal>], 
+	[<tag:items:forge:rods/all_metal>,<tag:items:forge:rods/all_metal>,<tag:items:forge:rods/all_metal>], 
+	[<tag:items:forge:rods/all_metal>,<item:minecraft:air>,<tag:items:forge:rods/all_metal>]]
+);
+
+
+// Thermal Expansion
+<recipetype:thermal:smelter>.addRecipe("sixdd_induction_furnace_quartz_enriched_iron", [<item:refinedstorage:quartz_enriched_iron> % 100], 
+	[<tag:items:forge:dusts/quartz>, <item:minecraft:iron_ingot>], 20, 5000);
+<recipetype:thermal:pulverizer>.addRecipe("sixdd_thermal_pulverizer_iron_grit", [<item:thermal:iron_dust> % 100 * 2] , <item:immersiveengineering:dust_iron>, 2, 500);
+<recipetype:thermal:pulverizer>.addRecipe("sixdd_thermal_pulverizer_gold_grit", [<item:thermal:gold_dust> % 100 * 2] , <item:immersiveengineering:dust_gold>, 2, 500);
+<recipetype:thermal:pulverizer>.addRecipe("sixdd_thermal_pulverizer_copper_grit", [<item:thermal:copper_dust> % 100 * 2] , <item:immersiveengineering:dust_copper>, 2, 500);
+<recipetype:thermal:pulverizer>.addRecipe("sixdd_thermal_pulverizer_lead_grit", [<item:thermal:lead_dust> % 100 * 2] , <item:immersiveengineering:dust_lead>, 2, 500);
+<recipetype:thermal:pulverizer>.addRecipe("sixdd_thermal_pulverizer_silver_grit", [<item:thermal:silver_dust> % 100 * 2] , <item:immersiveengineering:dust_silver>, 2, 500);
+<recipetype:thermal:pulverizer>.addRecipe("sixdd_thermal_pulverizer_nickel_grit", [<item:thermal:nickel_dust> % 100 * 2] , <item:immersiveengineering:dust_nickel>, 2, 500);
+<recipetype:thermal:pulverizer>.addRecipe("sixdd_thermal_pulverizer_aluminum_grit", [<item:contenttweaker:aluminum_dust> % 100 * 2] , <item:immersiveengineering:dust_aluminum>, 2, 500);
+
+// Refined Storage
+
+
+
+// Industrial Foregoing
+
+
+
+// Power Armor
+  // T45
+<recipetype:create:mechanical_crafting>.addRecipe("sixdd_mechanical_crafting_t45_helmet", <item:fallout_inspired_power_armor:t_45_helmet>, 
+	[[<tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>], 
+	[<tag:items:forge:plates/steel>, <item:contenttweaker:integrated_circuit>, <tag:items:forge:plates/steel>], 
+	[<tag:items:forge:plates/steel>, <item:minecraft:air>, <tag:items:forge:plates/steel>]]
+);
+<recipetype:create:mechanical_crafting>.addRecipe("sixdd_mechanical_crafting_t45_chestplate", <item:fallout_inspired_power_armor:t_45_chestplate>, 
+	[[<item:minecraft:air>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <item:minecraft:air>], 
+	[<tag:items:forge:plates/steel>, <item:createaddition:electric_motor>, <tag:items:forge:rods/steel>, <item:createaddition:electric_motor>, <tag:items:forge:plates/steel>], 
+	[<item:create:brass_hand>, <tag:items:forge:ingots/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:ingots/steel>, <item:create:brass_hand>],
+	[<item:minecraft:air>, <tag:items:forge:ingots/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:ingots/steel>, <item:minecraft:air>],
+	[<item:minecraft:air>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <item:minecraft:air>]]
+);
+<recipetype:create:mechanical_crafting>.addRecipe("sixdd_mechanical_crafting_t45_leggings", <item:fallout_inspired_power_armor:t_45_leggings>, 
+	[[<tag:items:forge:plates/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:plates/steel>], 
+	[<item:createaddition:electric_motor>, <tag:items:forge:rods/steel>, <item:createaddition:electric_motor>], 
+	[<tag:items:forge:ingots/steel>, <item:minecraft:air>, <tag:items:forge:ingots/steel>],
+	[<tag:items:forge:ingots/steel>, <item:minecraft:air>, <tag:items:forge:ingots/steel>],
+	[<tag:items:forge:plates/steel>, <item:minecraft:air>, <tag:items:forge:plates/steel>]]
+);
+<recipetype:create:mechanical_crafting>.addRecipe("sixdd_mechanical_crafting_t45_boots", <item:fallout_inspired_power_armor:t_45_boots>, 
+	[[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>],
+	[<tag:items:forge:ingots/steel>, <item:minecraft:air>, <tag:items:forge:ingots/steel>],
+	[<tag:items:forge:plates/steel>, <item:minecraft:air>, <tag:items:forge:plates/steel>]]
+);
