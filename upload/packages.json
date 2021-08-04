@@ -2,11 +2,18 @@
   "minimumVersion" : 1,
   "packages" : [
     {
-      "title" : "Untitled Modpack 0.7-008",
+      "title" : "Untitled Modpack v0.7-008",
       "name" : "untitled-modpack",
-      "version" : "2021-07-31-12-42-36",
+      "version" : "2021-08-04-18-38-40",
       "location" : "untitled-modpack.json",
       "priority" : 1
+    },
+    {
+      "title" : "Simply Create v1.0",
+      "name" : "simply-create",
+      "version" : "2021-08-04-18-47-53",
+      "location" : "simply-create.json",
+      "priority" : -1
     }
   ]
 }
